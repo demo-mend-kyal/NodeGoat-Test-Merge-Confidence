@@ -1,0 +1,10 @@
+{
+  "settingsInheritedFrom": "demo-mend-kyal/whitesource-config@main"
+  "remediateSettings": {
+    "enableRenovate": "true",
+    "workflowRules": {
+      "enabled": "false"
+    },
+    "extends": [ "config:base", ":dependencyDashboardApproval" ]
+  }
+}
